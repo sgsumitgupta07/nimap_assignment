@@ -1,0 +1,86 @@
+{
+  "userDetails": [
+    {
+      "userImg": "https://www.w3schools.com/howto/img_avatar.png",
+      "firstName": "test",
+      "secondName": 20,
+      "userEmail": "test@test.com",
+      "userMobileNo": 1234567890,
+      "ages": 55,
+      "userState": "Maharashtra",
+      "userCountry": "India",
+      "address": "Room No 02 Mulund",
+      "id": 1
+    },
+    {
+      "userImg": "C:\\fakepath\\WhatsApp Image 2020-12-04 at 9.03.12 PM.jpeg",
+      "firstName": "Sumit",
+      "secondName": "Gupta",
+      "userEmail": "sgsumitgupta07@gmail.com",
+      "userMobileNo": "9000000000",
+      "ages": 60,
+      "userState": "New York",
+      "userCountry": "US",
+      "address": "Abcd A",
+      "id": 2
+    },
+    {
+      "userImg": "C:\\fakepath\\Group 553@3x.png",
+      "firstName": "test@test.com",
+      "secondName": "test@test.com",
+      "userEmail": "test@test.com",
+      "userMobileNo": "9000000000",
+      "ages": 60,
+      "userState": "Goa",
+      "userCountry": "US",
+      "address": "test@test.com",
+      "id": 3
+    }
+  ],
+  "statedata": [
+    {
+      "state": "Maharashtra",
+      "id": 1
+    },
+    {
+      "state": "Goa",
+      "id": 2
+    },
+    {
+      "state": "London",
+      "id": 3
+    },
+    {
+      "state": "New York",
+      "id": 4
+    }
+  ],
+  "countrydata": [
+    {
+      "country": "India",
+      "id": 1
+    },
+    {
+      "country": "US",
+      "id": 2
+    },
+    {
+      "country": "UK",
+      "id": 3
+    }
+  ],
+  "addressdata": [
+    {
+      "addess": "Address",
+      "id": 1
+    },
+    {
+      "addess": "Dadar",
+      "id": 2
+    },
+    {
+      "addess": "CST",
+      "id": 3
+    }
+  ]
+}

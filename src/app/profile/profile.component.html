@@ -1,0 +1,56 @@
+<div class="container">
+
+    <h1 class="pt-4 text-left">User Profile</h1>
+
+    <div class="row">
+      <div class="col-sm">
+        <label class="hoverable" for="fileInput">
+            <img style="height: 150px;" [src]="url ? url : 'https://www.w3schools.com/howto/img_avatar.png'"> 
+            <div class="hover-text">Choose file</div>
+            <div class="background"></div>
+        </label>
+        <br/>
+        <input formControlName="userImg" id="fileInput" type='file' (change)="onSelectFile($event)">
+        <button *ngIf="url" (click)="delete()" >delete</button>
+        
+      </div>
+
+      <div class="col-sm">
+        First Name
+        <br><br>
+        Second Name
+        <br><br>
+        Email
+        <br><br>
+        Mobile No
+        <br><br>
+        Ages
+        <br><br>
+       State
+        <br><br>
+       Country
+        <br><br>
+        Address
+      </div>
+
+      <div class="col-sm">
+        {{showProfile.firstName}}
+        <br><br>
+        {{showProfile.secondName}}
+        <br><br>
+        {{showProfile.userEmail}}
+        <br><br>
+        {{showProfile.userMobileNo}}
+        <br><br>
+        {{showProfile.ages}}
+        <br><br>
+        {{showProfile.userState}}
+        <br><br>
+        {{showProfile.userCountry}}
+        <br><br>
+        {{showProfile.address}}
+      </div>
+
+    </div>
+
+  </div>
